@@ -1,0 +1,6 @@
+bananaChoc=int(input())
+mangoChoc=int(input())
+bananaChocEaten=int(input())
+mangoChocEaten=int(input())
+mainOutputText = 2*(bananaChoc - bananaChocEaten + mangoChoc - mangoChocEaten)
+print(mainOutputText)
