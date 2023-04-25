@@ -8,3 +8,5 @@ while move != "G":
     elif move == "D" and cup + 1 != 4:
             cup+=1
 print(cup)
+
+#small note, this was actually the name of the task lol
