@@ -1,3 +1,6 @@
+#WARNING - EXTREMELY CRINGE AND TERRIBLE CODE AHEAD
+
+
 #5 player rock paper scissors
 #its played by numbers 1,2,3,4,5
 #1 counters 4, 1 counters 3, 2 counters 1, 2 counters 5, 3 counters 2, 3 counters 4, 4 counters 5, 4 counters 2, 5 counters 3 and 5 counters 1
@@ -239,3 +242,5 @@ for i in range(numberofrounds):
         if firstplayer == 3 or firstplayer == 1:
             fifthplayercount += 1
     print(firstplayercount, secondplayercount, thirdplayercount, fourthplayercount, fifthplayercount)
+    
+    #i hate myself for this one
