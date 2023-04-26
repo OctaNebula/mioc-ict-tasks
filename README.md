@@ -1,7 +1,9 @@
 <p align="center">
   <img width="316" height="316" src="https://upload.wikimedia.org/wikipedia/en/d/d2/XV_Gymnasium_logo.png">
 </p>
-# mioc-ict-tasks
+
+
+ # mioc-ict-tasks
 This repository is a collection of tasks I've had to solve through my schooling at MIOC. Good chunk of tasks are in Croatian. Mostly made for archival purposes
 
 The names of the folders usually represent a theme of the tasks inside:
