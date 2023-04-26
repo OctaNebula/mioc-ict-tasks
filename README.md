@@ -3,7 +3,7 @@
 </p>
 
  # mioc-ict-tasks
-This repository is a collection of tasks I've had to solve through my schooling at MIOC. Good chunk of tasks are in Croatian. Mostly made for archival purposes
+This repository is a collection of tasks I've had to solve through my schooling at MIOC *(XV Gymnasium)*, Zagreb. Good chunk of tasks are in Croatian. Mostly made for archival purposes
 
 The names of the folders usually represent a theme of the tasks inside:
 For example, FN1 would mean Functions, 1st set of tasks.
@@ -12,10 +12,10 @@ Here's a small list of what the abbreviations mean:
 - LS - Lists
 - STR - Strings
 - WL - While loops
-- PPZ - Exams *("Pismena Provjera Znanja", translated from croatian, "Knowledge Check" or Exam, simply said)*
+- PPZ - Exams *("Pismena Provjera Znanja", translated from Croatian, "Knowledge Check" or Exam, simply said)*
 - FOR - For loops
 - PG - Programming *(A bundle of IF statements, and basic math operations, the first thing we learned in programming)*
-- PZ - Knowledge repeating *(Ponavljanje Znanja, translated from croatian, "Knowledge Repeating", repeating the previous class at the beginning of the year as practice)*
+- PZ - Knowledge repeating *(Ponavljanje Znanja, translated from Croatian, "Knowledge Repeating", repeating the previous class at the beginning of the year as practice)*
 
 Some tasks are incorrectly solved, not to mention I wasn't allowed to share the tasks themselves, only the solutions.
 Some are even solved in more advanced ways than we were taught, but that's just me trying to be creative and learn more.
