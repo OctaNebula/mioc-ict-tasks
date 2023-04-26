@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/en/d/d2/XV_Gymnasium_logo.png">
+</p>
 # mioc-ict-tasks
 This repository is a collection of tasks I've had to solve through my schooling at MIOC. Good chunk of tasks are in Croatian. Mostly made for archival purposes
 
@@ -17,4 +20,3 @@ Some tasks are incorrectly solved, not to mention I wasn't allowed to share the 
 Some are even solved in more advanced ways than we were taught, but that's just me trying to be creative and learn more.
 You can learn and share the code from this repo all you want, but please don't copy it and submit it as your own work.
 
-<img align="center" src="https://upload.wikimedia.org/wikipedia/en/d/d2/XV_Gymnasium_logo.png">
