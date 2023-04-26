@@ -16,3 +16,5 @@ Here's a small list of what the abbreviations mean:
 Some tasks are incorrectly solved, not to mention I wasn't allowed to share the tasks themselves, only the solutions.
 Some are even solved in more advanced ways than we were taught, but that's just me trying to be creative and learn more.
 You can learn and share the code from this repo all you want, but please don't copy it and submit it as your own work.
+
+![MIOC](https://upload.wikimedia.org/wikipedia/en/d/d2/XV_Gymnasium_logo.png)
