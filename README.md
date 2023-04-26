@@ -17,4 +17,4 @@ Some tasks are incorrectly solved, not to mention I wasn't allowed to share the 
 Some are even solved in more advanced ways than we were taught, but that's just me trying to be creative and learn more.
 You can learn and share the code from this repo all you want, but please don't copy it and submit it as your own work.
 
-<img align="center" src="<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">">
+<img align="center" src="https://upload.wikimedia.org/wikipedia/en/d/d2/XV_Gymnasium_logo.png">
