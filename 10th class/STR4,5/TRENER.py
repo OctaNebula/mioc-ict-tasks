@@ -4,7 +4,7 @@ playersfirstletters = []
 for i in range(numberofplayers):
     playersfirstletters.append(input()[0])
 #removes the letters that appear less than 5 times
-for i in playersfirstletters:
+for i in playersfirstletters+[]:
     if playersfirstletters.count(i) < 5:
         while i in playersfirstletters:
             playersfirstletters.remove(i)
