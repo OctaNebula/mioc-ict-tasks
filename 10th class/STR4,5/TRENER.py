@@ -18,3 +18,5 @@ for i in playersfirstletters:
     print(i, end = "")
 if playersfirstletters == []:
     print("PREDAJA")
+
+#FUCK THIS TASK GOT ME A 9/10 MY OCD IS FUCKING TRIGGERED
