@@ -16,3 +16,5 @@ for i in playersfirstletters:
 playersfirstletters.sort()
 for i in playersfirstletters:
     print(i, end = "")
+if playersfirstletters == []:
+    print("PREDAJA")
