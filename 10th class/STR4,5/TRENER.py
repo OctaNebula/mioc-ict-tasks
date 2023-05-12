@@ -1,29 +1,18 @@
-#--STILL UNSOLVED AND BROKEN--
-#firstletternames = []
-#uniquefirstletternames = []
-#firstletternamescount = []
-#numberofnames = int(input())
-##Adds the names of the players to the list
-#names = []
-#for i in range(numberofnames):
-#    names.append(input())
-#for i in names:
-#    firstletternames.append(i[0])
-##Removes all duplicates from the list and adds it to the list uniquefirstletternames
-#for i in firstletternames:
-#    if i not in uniquefirstletternames:
-#        uniquefirstletternames.append(i)
-##Counts the number of times each letter appears in the list firstletternames
-#for i in uniquefirstletternames:
-#    firstletternamescount.append(firstletternames.count(i))
-##Removes all letters that appear less than 5 times
-#for i in uniquefirstletternames:
-#    if firstletternamescount[firstletternames.index(i)] < 5:
-#        uniquefirstletternames.replace(i, 0)
-#        print(uniquefirstletternames)
-##Sorts the list alphabetically
-#uniquefirstletternames.sort()
-##if the list contains a letter, joins it and prints it, otherwise prints "PREDAJA"
-#if uniquefirstletternames == []:
-#    print("PREDAJA")
-#else: print("".join(uniquefirstletternames))
+numberofplayers = int(input())
+playersfirstletters = []
+#appends the first letter of each player's name to the list
+for i in range(numberofplayers):
+    playersfirstletters.append(input()[0])
+#removes the letters that appear less than 5 times
+for i in playersfirstletters:
+    if playersfirstletters.count(i) < 5:
+        while i in playersfirstletters:
+            playersfirstletters.remove(i)
+#gets rid of the duplicates
+for i in playersfirstletters:
+    while playersfirstletters.count(i) != 1:
+        playersfirstletters.remove(i)
+#sorts the list alphabetically
+playersfirstletters.sort()
+for i in playersfirstletters:
+    print(i, end = "")
