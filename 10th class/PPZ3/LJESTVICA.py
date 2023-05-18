@@ -3,6 +3,7 @@ cmajorammount = 0
 aminormainnotes = ["A", "D", "E"]
 cminorammount = 0
 string = input()
+stringoriginal = string
 string = string.split("|")
 #nukes everything after the first note
 for i in string:
@@ -20,7 +21,7 @@ if cmajorammount > cminorammount:
 elif cminorammount > cmajorammount:
     print("A-mol")
 elif cmajorammount == cminorammount:
-    if string[-1] in cmajormainnotes:
+    if stringoriginal[-1] in cmajormainnotes:
         print("C-dur")
-    elif string[-1] in aminormainnotes:
+    elif stringoriginal[-1] in aminormainnotes:
         print("A-mol")
