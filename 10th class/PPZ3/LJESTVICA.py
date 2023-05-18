@@ -15,8 +15,6 @@ for i in string:
         cmajorammount += 1
     elif i in aminormainnotes:
         cminorammount += 1
-print(cmajorammount, cminorammount)
-print(string)
 if cmajorammount > cminorammount:
     print("C-dur")
 elif cminorammount > cmajorammount:
