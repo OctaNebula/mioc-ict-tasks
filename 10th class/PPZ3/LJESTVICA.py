@@ -14,3 +14,8 @@ if cmajorammount > cminorammount:
     print("C-dur")
 elif cminorammount > cmajorammount:
     print("A-mol")
+elif cmajorammount == cminorammount:
+    if string[-1] in cmajormainnotes:
+        print("C-dur")
+    elif string[-1] in aminormainnotes:
+        print("A-mol")
