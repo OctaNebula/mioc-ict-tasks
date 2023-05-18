@@ -10,3 +10,4 @@ for i in range(3):
     elif string[1] == "stupaca":
         print(chocoy)
         chocoy -= int(string[0])
+#doesn't work sucks to suck
