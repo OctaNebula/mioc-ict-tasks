@@ -3,6 +3,11 @@ cmajorammount = 0
 aminormainnotes = ["A", "D", "E"]
 cminorammount = 0
 string = input()
+string = string.split("|")
+#nukes everything after the first note
+for i in string:
+    i = i[0]
+"".join(string)
 #counts the ammount of major notes for each string
 for i in string:
     if i in cmajormainnotes:
