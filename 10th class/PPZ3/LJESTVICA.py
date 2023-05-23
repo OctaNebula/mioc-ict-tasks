@@ -24,3 +24,5 @@ elif cmajorammount == cminorammount:
         print("C-dur")
     elif stringoriginal[-1] in aminormainnotes:
         print("A-mol")
+
+#EDIT 23/5/2023 - I just realized I named my a-minor variable "cminorammount" lol
