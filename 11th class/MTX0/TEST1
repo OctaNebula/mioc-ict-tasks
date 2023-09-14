@@ -1,0 +1,6 @@
+matrix = []
+total = 0
+for i in matrix:
+    total += sum(i)
+print(total)
+# Outputs the sum of all the elements in the matrix
