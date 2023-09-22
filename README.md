@@ -12,6 +12,7 @@ Here's a small list of what the abbreviations mean:
 - FOR - For loops
 - PG - Programming *(A bundle of IF statements, and basic math operations, the first thing we learned in programming)*
 - PZ - Knowledge repeating *(Ponavljanje Znanja, translated from Croatian, "Knowledge Repeating", repeating the previous class at the beginning of the year as practice)*
+- MTX - Matrices
 
 Some tasks are incorrectly solved, not to mention I wasn't allowed to share the tasks themselves, only the solutions.
 Some are even solved in more advanced ways than we were taught, but that's just me trying to be creative and learn more.
