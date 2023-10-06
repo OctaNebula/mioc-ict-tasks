@@ -17,4 +17,4 @@ for i in range(r):
 
 
 #prints the result
-print("A: {halfA} B: {halfB}".format(halfA=white, halfB=black))
+print("A:{halfA} B:{halfB}".format(halfA=white, halfB=black))

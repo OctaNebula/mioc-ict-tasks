@@ -34,4 +34,4 @@ elif splitStrategy == "outline":
                 halfB += matrix[i][j]
 
 #prints the result
-print("A: {halfA} B: {halfB}".format(halfA=halfA, halfB=halfB))
+print("A:{halfA} B:{halfB}".format(halfA=halfA, halfB=halfB))
