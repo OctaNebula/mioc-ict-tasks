@@ -1,4 +1,4 @@
-def arithmeticRowSumRecursion (n):
+def arithmeticRowSumRecursion(n):
     if n == 1:
         return 1
     else:
