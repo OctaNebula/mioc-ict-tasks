@@ -4,4 +4,4 @@ def recursiveFibbonaci(n):
     else:
         return recursiveFibbonaci(n-1) + recursiveFibbonaci(n-2)
 
-print(recursiveFibbonaci(10)) #Output: 55
+print(recursiveFibbonaci(10)) # Output: 55
