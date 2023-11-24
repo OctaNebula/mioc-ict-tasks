@@ -6,6 +6,6 @@ targetRow = int(input())
 
 #prints the index of the largest number in the targeted row
 
-print(matrix[targetRow].index(max(matrix[targetRow])))
-
-input()
+targetRowThrowings = matrix[targetRow-1]
+largestThrowing = max(targetRowThrowings)
+print(targetRowThrowings.index(largestThrowing)+1)
