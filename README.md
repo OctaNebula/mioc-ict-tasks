@@ -14,6 +14,7 @@ Here's a small list of what the abbreviations mean:
 - `PZ` - Knowledge repeating *(Ponavljanje Znanja, translated from Croatian, "Knowledge Repeating", repeating the previous class at the beginning of the year as practice)*
 - `MTX` - Matrices
 - `REC` - Recursion
+- `DC` - Dictionaries
 
 There's also the omnipresence of me naming tasks "`Zx`", where x is a number *("Zadatak", translated from croatian, task)*. That's for when we get tasks which don't really have any name (such as tasks we get on work papers, which are usually simply numerated), so i just name them `Z1`, `Z2`, `Z3`, etc.
 
