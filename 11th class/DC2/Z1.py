@@ -3,11 +3,10 @@ countriesandcities = {"Vienna": "Austria", "Rome": "Italy", "Milano": "Italy", "
 newinputs = int(input())
 
 for i in range(newinputs):
-    city = input()
-    if city in countriesandcities:
-        print(countriesandcities[city])
-    else:
-        print("bruh")
+    # adds a new city and country to the dictionary
+    city, country = input().split()
+    countriesandcities[city] = country
+
         
 for i in countriesandcities.values():
     print(i)
