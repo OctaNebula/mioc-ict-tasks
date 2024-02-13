@@ -16,3 +16,21 @@ for letter in uniqueString:
 
 for keys, values in mandatoryDictionary.items():
     print(f"{keys} - {values}")
+
+
+# --- MORE IMPRACTICAL SOLUTION WITH MORE DICTIONARY USAGE (JUST IN CASE THIS WASN'T ENOUGH) ---
+    
+# words = list(input().split())
+# mandatoryDictionary = {}
+
+# string = "".join(words)
+# def letterFrequency(letter, string):
+#     return round(string.count(letter) / len(string), 2)
+#
+# uniqueString = "".join(sorted(set(string)))
+# # counts the frequency of each letter in the string and adds it to the dictionary
+# for letter in uniqueString:
+#     mandatoryDictionary[letter] = letterFrequency(letter, string)
+#
+# for keys, values in mandatoryDictionary.items():
+#     print(f"{keys} - {round(values/len(string), 2)}")
