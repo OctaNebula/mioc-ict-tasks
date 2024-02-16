@@ -21,3 +21,6 @@ output = open("output3.txt", "w")
 # Writes the sum of each row to the output file in a new line
 for i in sumList:
     output.write(f"{i}\n")
+
+output.close()
+mainFile.close()

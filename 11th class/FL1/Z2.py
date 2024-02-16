@@ -10,3 +10,6 @@ output.write(f"""{max((mainList))}
 {sum(mainList)}
 """)
 
+output.close()
+mainFile.close()
+

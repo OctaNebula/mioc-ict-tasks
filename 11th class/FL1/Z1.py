@@ -10,3 +10,6 @@ for i in mainList:
 
 output = open("output.txt", "w")
 output.write(" ".join(evens))
+
+mainFile.close()
+output.close()
