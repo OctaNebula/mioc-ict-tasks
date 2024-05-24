@@ -28,3 +28,5 @@ def caesar_decrypt(string, bigrams, reqScore):
 
 def caesar_decrypt_knownKey(string, shift):
     return caesar_encrypt(string, -shift)
+
+caesar_decrypt("nbyzcnhymmalugjuwylnymncmugofncmnuayuylivcwwujuwcnsnymn", commonBigrams, 15)
