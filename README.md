@@ -17,6 +17,7 @@ Here's a small list of what the abbreviations mean:
 - `DC` - Dictionaries
 - `FL` - Files
 - `CTG` - Cryptography
+- `TRL` - Turtle graphics
 
 There's also the omnipresence of me naming tasks "`Zx`", where x is a number *("Zadatak", translated from croatian, task)*. That's for when we get tasks which don't really have any name (such as tasks we get on work papers, which are usually simply numerated), so i just name them `Z1`, `Z2`, `Z3`, etc.
 
