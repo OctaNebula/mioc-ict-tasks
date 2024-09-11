@@ -56,9 +56,10 @@ class Square(Rectangle):
 class RightTriangle(GeometricalObject):
     def __init__(self, a, b):
         super().__init__(a, b)
+        self.hypotenuse = math.sqrt((self.a)**2 + (self.b)**2)
 
     def area(self):
         return self.a * self.b / 2
     
     def perimeter(self):
-        return self.a + self.b + math.sqrt((self.a)**2 + (self.b)**2)
+        return self.a + self.b + self.hypotenuse
