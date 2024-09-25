@@ -18,6 +18,7 @@ class Point:
         plt.plot([self.x, p.x], [self.y, p.y], 'ro-')
         plt.axis([0, 10, 0, 10])
         plt.show()
+
 p1 = Point(1, 2)
 p2 = Point(4, 6)
 
