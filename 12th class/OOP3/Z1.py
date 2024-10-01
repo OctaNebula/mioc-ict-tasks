@@ -15,5 +15,17 @@ class Time:
         return timestring
     
     def __repr__(self):
-        
+
         return self.__str__()
+    
+    def __lt__(self, other):
+
+        return self.hours * 60 + self.minutes < other.hours * 60 + other.minutes
+    
+    def __gt__(self, other):
+
+        return self.hours * 60 + self.minutes > other.hours * 60 + other.minutes
+    
+    def __eq__(self, other):
+
+        return self.hours * 60 + self.minutes == other.hours * 60 + other.minutes
