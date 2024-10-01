@@ -33,4 +33,12 @@ class Time:
         self.minutes %= 60
 
     def __add__(self, other):
-        return Time(0, self.minutes + other.minutes + (self.hours +     other.hours))
+        return Time(0, self.minutes + other.minutes + (self.hours + other.hours))
+    
+    def __sub__(self, other):
+        return Time(0, self.minutes - other.minutes + (self.hours - other.hours))
+    
+    def now(): # not a required thing, bonus task i made myself do
+        import time
+        t = time.localtime()
+        return Time(t.tm_hour, t.tm_min)
