@@ -11,8 +11,6 @@ class Complex():
     def modulus(self, real, imag):
         mod = int(math.sqrt(real**2 + imag**2))
         print(f"Mod = {mod}")
-        
-# example
 
 z = Complex(3, 4)
 
