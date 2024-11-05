@@ -22,6 +22,8 @@ class Fraction:
         return Fraction(self.num * self.den + f.num * f.den, self.den * f.den)
 
     def power(self, n):
+        if n < 0:
+            return Fraction(self.den ** -n, self.num ** -n)
         return Fraction(self.num ** n, self.den ** n)
     
     def greaterthan(self, f):
