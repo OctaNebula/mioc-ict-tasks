@@ -7,7 +7,7 @@ class Point:
         self.y = y
 
     def distance(self, p):
-        return ((self.x - p.x) ** 2 + (self.y - p.y) ** 2) ** 0.5
+        return math.sqrt((self.x - p.x) ** 2 + (self.y - p.y) ** 2)
 
 
 class Triangle:
@@ -24,10 +24,14 @@ class Triangle:
         return math.sqrt(p * (p - self.a.distance(self.b)) * (p - self.b.distance(self.c)) * (p - self.c.distance(self.a)))
 
     def is_equilateral(self):
-        return self.a.distance(self.b) == self.b.distance(self.c) == self.c.distance(self.a)
+        ab = self.a.distance(self.b)
+        return math.isclose(ab, self.b.distance(self.c)) and math.isclose(ab, self.c.distance(self.a))
 
     def is_isoceles(self):
-        return self.a.distance(self.b) == self.b.distance(self.c) or self.b.distance(self.c) == self.c.distance(self.a) or self.c.distance(self.a) == self.a.distance(self.b)
+        ab = self.a.distance(self.b)
+        bc = self.b.distance(self.c)
+        ca = self.c.distance(self.a)
+        return math.isclose(ab, bc) or math.isclose(bc, ca) or math.isclose(ca, ab)
 
     def is_irregular(self):
         return not self.is_equilateral() and not self.is_isoceles()
