@@ -1,7 +1,10 @@
+from math import gcd
+
 class Fraction:
     def __init__(self, num, den):
         self.num = num
         self.den = den
+        self.shorten()
     
     def __str__(self):
         return str(self.num) + "/" + str(self.den)
@@ -10,19 +13,16 @@ class Fraction:
         return str(self.num) + "/" + str(self.den)
     
     def shorten(self):
-        a = self.num
-        b = self.den
-        while b:
-            a, b = b, a % b
-        self.num = self.num // a
-        self.den = self.den // a
+        a = gcd(self.num, self.den)
+        self.num //= a
+        self.den //= a
         return self
 
     def add(self, f):
-        return Fraction(self.num * self.den + f.num * f.den, self.den * f.den).shorten()
+        return Fraction(self.num * self.den + f.num * f.den, self.den * f.den)
 
     def power(self, n):
-        return Fraction(self.num ** n, self.den ** n).shorten()
+        return Fraction(self.num ** n, self.den ** n)
     
     def greaterthan(self, f):
         return self.num / self.den > f.num / f.den
