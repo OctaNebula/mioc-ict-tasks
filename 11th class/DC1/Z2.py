@@ -17,5 +17,8 @@ for name, grade in gradesDictionary.items():
 
 sortedGPAList = sorted(gpaList)
 
+res = []
 for i in range(len(gpaList)):
-    print(sortedGPAList[i], end=" ")
+    res.append(str(sortedGPAList[i]))
+
+print(' '.join(res))
