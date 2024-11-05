@@ -13,6 +13,5 @@ for i in p1:
         else:
             result[i+j] = p1[i] * p2[j]
 
-for keys in result:
-    print(result[keys], end=' ')
+print(' '.join(map(str, result.keys())))
 print()
