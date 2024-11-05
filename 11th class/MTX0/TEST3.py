@@ -1,5 +1,5 @@
 matrix = []
-#prints the dum of even columns
+#prints the sum of even columns
 total = 0
 for i in matrix:
     for j in i:
