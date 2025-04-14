@@ -10,7 +10,7 @@ def printNeighbors(node):
             neighbors.append(chart[i][1])
     return neighbors
 
-for i in range(chartDimensions):
+for i in range(branches):
     node, neighbor = map(int, input().split())
     chart.append([node, neighbor])
 
