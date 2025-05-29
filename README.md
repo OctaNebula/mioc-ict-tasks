@@ -1,3 +1,6 @@
+# Note
+Since 23/06/2025, I've graduated from high school and therefore this repository has been archived in it's current state.
+
  # mioc-ict-tasks
 This repository is a collection of tasks I've had to solve through my schooling at MIOC *(XV Gymnasium)*, Zagreb. Good chunk of tasks are in Croatian. Mostly made for archival purposes.
 
